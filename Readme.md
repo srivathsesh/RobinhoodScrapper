@@ -50,7 +50,10 @@ map_df(function(x) getAnalystRating(x))
 
 I ran into the following error:
 
-Error in doc_parse_file(con, encoding = encoding, as_html = as_html, options = options) : Expecting a single string value: [type=character; extent=7].
+```diff
+- Error in doc_parse_file(con, encoding = encoding, as_html = as_html, options = options) : Expecting a single string value: [type=character; extent=7].
+```
+
 
 ```
 df %>% 
