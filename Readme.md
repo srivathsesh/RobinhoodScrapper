@@ -37,7 +37,7 @@ AnalystScores <- lapply(df$ticker,getAnalystRating) %>%
 ```
 
   
-Notice I use lappy instead of purrr::map_df. When I attempted to use map_df as below:
+Notice I use lapply instead of purrr::map_df. When I attempted to use map_df as below:
 
 ```
 df %>% 
